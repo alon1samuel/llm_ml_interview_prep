@@ -62,6 +62,8 @@ except ArithmeticError as e:
 
 with open("file.txt", "w") as f:
     f.write("Hello file!")
+import os
+os.remove("file.txt")
 
 # Implement a generator that yields the Fibonacci sequence.
 
@@ -84,5 +86,17 @@ print(list(fibonacci_series(fibonacci_legnth)))
 """
 
 
-# 
+# Write a program to check if a given string is a palindrome.
 
+true_case_odd = "abcacba"
+true_case_eve = "abccba"
+false_case = "abccbb"
+
+
+
+def is_palindrom(test_str):
+    return test_str[::-1] == test_str
+
+print(is_palindrom(true_case_eve))
+print(is_palindrom(true_case_odd))
+print(is_palindrom(false_case))
