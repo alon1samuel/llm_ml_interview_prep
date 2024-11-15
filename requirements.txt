@@ -6,3 +6,5 @@ ucimlrepo
 matplotlib
 seaborn
 gensim
+langchain-openai
+openpyxl
