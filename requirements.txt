@@ -8,3 +8,6 @@ seaborn
 gensim
 langchain-openai
 openpyxl
+langchain_community
+langchain_chroma
+beautifulsoup4
