@@ -1,0 +1,8 @@
+# conda install -c pytorch -c nvidia faiss-gpu=1.9.0
+pandas
+pyspark
+scikit-learn
+polars
+requests
+pyarrow
+sentence-transformers
