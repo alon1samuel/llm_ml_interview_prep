@@ -9,6 +9,8 @@ Use LangChain to integrate an LLM with a vector database for Q&A.
 Discuss evaluation strategies for text generation (BLEU, ROUGE, human evaluation).
 Demonstrate prompt chaining for a multi-step data extraction process.
 Use Faiss to enhance semantic search by integrating with an LLM for context-based ranking.
+
+Create a production llm 
 """
 
 import getpass
