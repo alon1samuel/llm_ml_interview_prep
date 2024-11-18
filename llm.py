@@ -26,7 +26,7 @@ from langchain_openai import OpenAI
 
 llm = OpenAI()
 
-llm.model_name
+print(llm.model_name)
 
 
 from langchain_core.prompts import PromptTemplate
